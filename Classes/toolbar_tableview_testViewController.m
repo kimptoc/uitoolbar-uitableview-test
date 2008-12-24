@@ -51,6 +51,11 @@
 }
 
 
+-(IBAction)toggleEdit:(id)sender { 
+    [self.tableView setEditing:!self.tableView.editing animated:YES]; 
+} 
+
+
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
@@ -60,6 +65,16 @@
                       @"Oin", @"Gloin", @"Bifur", @"Bofur", @"Bombur", nil]; 
     self.listData = array; 
     [array release]; 
+    
+    /*
+    UIBarButtonItem *editButton = [[UIBarButtonItem alloc] 
+                                   initWithTitle:@"Delete" 
+                                   style:UIBarButtonItemStyleBordered 
+                                   target:self 
+                                   action:@selector(toggleEdit:)]; 
+    self.navigationItem.rightBarButtonItem = editButton; 
+    [editButton release]; 
+    */
     
     self.navigationItem.rightBarButtonItem = self.editButtonItem;
 

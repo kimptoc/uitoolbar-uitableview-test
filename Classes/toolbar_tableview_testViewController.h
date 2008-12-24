@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface toolbar_tableview_testViewController : UIViewController 
+@interface toolbar_tableview_testViewController : UITableViewController 
  <UITableViewDelegate, UITableViewDataSource>   {
    NSArray *listData;
      IBOutlet UITableView* tableView;
@@ -18,6 +18,8 @@
 @property (nonatomic, retain) NSArray *listData;
 
 - (IBAction) btnPressed:(id) sender;
+
+-(IBAction)toggleEdit:(id)sender; 
 
 @end
 

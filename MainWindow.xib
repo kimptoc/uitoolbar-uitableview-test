@@ -32,9 +32,9 @@
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 			</object>
 			<object class="IBUICustomObject" id="664661524"/>
-			<object class="IBUINavigationController" id="317705082">
+			<object class="IBUINavigationController" id="230942603">
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUINavigationBar" key="IBUINavigationBar" id="714284782">
+				<object class="IBUINavigationBar" key="IBUINavigationBar" id="307649309">
 					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{0, 0}</string>
@@ -98,11 +98,11 @@
 							</object>
 							<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 						</object>
-						<object class="IBUINavigationItem" key="IBUINavigationItem" id="938149980">
+						<object class="IBUINavigationItem" key="IBUINavigationItem" id="542223445">
 							<reference key="IBUINavigationBar"/>
 							<string key="IBUITitle">Item</string>
 						</object>
-						<reference key="IBUIParentViewController" ref="317705082"/>
+						<reference key="IBUIParentViewController" ref="230942603"/>
 						<string key="IBUINibName">toolbar_tableview_testViewController</string>
 						<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 					</object>
@@ -168,9 +168,17 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">navController</string>
 						<reference key="source" ref="664661524"/>
-						<reference key="destination" ref="317705082"/>
+						<reference key="destination" ref="230942603"/>
 					</object>
 					<int key="connectionID">31</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">tableView</string>
+						<reference key="source" ref="943309135"/>
+						<reference key="destination" ref="661160849"/>
+					</object>
+					<int key="connectionID">32</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -208,18 +216,18 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">24</int>
-						<reference key="object" ref="317705082"/>
+						<reference key="object" ref="230942603"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="714284782"/>
+							<reference ref="307649309"/>
 							<reference ref="943309135"/>
 						</object>
 						<reference key="parent" ref="957960031"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">26</int>
-						<reference key="object" ref="714284782"/>
-						<reference key="parent" ref="317705082"/>
+						<reference key="object" ref="307649309"/>
+						<reference key="parent" ref="230942603"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
@@ -227,9 +235,9 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="328107330"/>
-							<reference ref="938149980"/>
+							<reference ref="542223445"/>
 						</object>
-						<reference key="parent" ref="317705082"/>
+						<reference key="parent" ref="230942603"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">15</int>
@@ -262,7 +270,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">30</int>
-						<reference key="object" ref="938149980"/>
+						<reference key="object" ref="542223445"/>
 						<reference key="parent" ref="943309135"/>
 					</object>
 				</object>
@@ -328,7 +336,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">31</int>
+			<int key="maxID">32</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -366,8 +374,17 @@
 					<string key="className">toolbar_tableview_testViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">btnPressed:</string>
-						<string key="NS.object.0">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSMutableArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>btnPressed:</string>
+							<string>toggleEdit:</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<string key="NS.key.0">tableView</string>

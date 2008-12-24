@@ -300,7 +300,7 @@
 							<real>268</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 100 914 773 0 0 1440 878 </string>
+						<string>220 91 914 773 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,13 +330,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1190CC8B0F02836B009451E3</string>
+										<string>1190CCCD0F02A770009451E3</string>
 										<key>history</key>
 										<array>
-											<string>11048EDE0F01822D00C7E9E6</string>
 											<string>1190CC770F028336009451E3</string>
 											<string>1190CC780F028336009451E3</string>
-											<string>1190CC790F028336009451E3</string>
+											<string>1190CCC70F02A74E009451E3</string>
+											<string>1190CCC80F02A74E009451E3</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -348,6 +348,12 @@
 											<string>1190CC7C0F028336009451E3</string>
 											<string>1190CC7D0F028336009451E3</string>
 											<string>1190CC7E0F028336009451E3</string>
+											<string>1190CC970F02A5C6009451E3</string>
+											<string>1190CC980F02A5C6009451E3</string>
+											<string>1190CCB30F02A681009451E3</string>
+											<string>1190CCB40F02A681009451E3</string>
+											<string>1190CCC20F02A740009451E3</string>
+											<string>1190CCC90F02A74E009451E3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -361,7 +367,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {624, 554}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 100 914 773 0 0 1440 878 </string>
+								<string>220 91 914 773 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -381,7 +387,7 @@
 								<key>Frame</key>
 								<string>{{0, 559}, {624, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 100 914 773 0 0 1440 878 </string>
+								<string>220 91 914 773 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -541,7 +547,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1190CC8C0F02836B009451E3</string>
+		<string>1190CCCE0F02A770009451E3</string>
 		<string>1190CC510F0280DA009451E3</string>
 		<string>1190CC4C0F0280C8009451E3</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -550,7 +556,7 @@
 		<string>/Users/kimptoc/Documents/xcode-apps/toolbar-tableview-test/toolbar-tableview-test.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 100 914 773 0 0 1440 878 </string>
+	<string>220 91 914 773 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -721,10 +727,10 @@
 									<key>Frame</key>
 									<string>{{0, 190}, {347, 191}}</string>
 									<key>RubberWindowFrame</key>
-									<string>413 118 694 422 0 0 1440 878 </string>
+									<string>660 149 694 422 0 0 1440 878 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>413 118 694 422 0 0 1440 878 </string>
+								<string>660 149 694 422 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -758,7 +764,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>413 118 694 422 0 0 1440 878 </string>
+			<string>660 149 694 422 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
