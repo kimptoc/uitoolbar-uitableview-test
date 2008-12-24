@@ -12,11 +12,11 @@
 
 @interface toolbar_tableview_testAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    toolbar_tableview_testViewController *viewController;
+    UINavigationController *navController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet toolbar_tableview_testViewController *viewController;
+@property (nonatomic, retain) IBOutlet UINavigationController *navController;
 
 @end
 

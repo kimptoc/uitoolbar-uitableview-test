@@ -42,6 +42,14 @@
 }
 */
 
+- (void)setEditing:(BOOL)editing animated:(BOOL)animated 
+{
+    //[self setEditing:!self.editing animated:YES];
+    [super setEditing:editing animated:animated];
+    
+//    [syndicateableView reloadData];
+}
+
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -53,7 +61,8 @@
     self.listData = array; 
     [array release]; 
     
-    
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+
     [super viewDidLoad];
 }
 
